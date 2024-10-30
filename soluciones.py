@@ -1,6 +1,6 @@
-import math
-radio = float(input("Ingrese el radio: "))
-perimetro = 2 * math.pi * radio
-area = math.pi * (radio ** 2)
-print(f"Perímetro: {perimetro:.1f}")
-print(f"Área: {area:.1f}")
+first_grade = float(input("First grade: "))
+second_grade = float(input("Second grade: "))
+third_grade = float(input("Third grade: "))
+fourth_grade = float(input("Fourth grade: "))
+average = (first_grade + second_grade + third_grade + fourth_grade) / 4
+print(f"The average is: {average:.2f}")
